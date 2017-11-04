@@ -15,6 +15,9 @@ You will now be able to import this module and use it in your project.
 
 ### Initializing
 
+You will need to initialize this module with your
+Salesforce username and password.
+
 ```js
 let Salesforce = require("./dist/index.js");
 let salesforce = new Salesforce("username", "password");
