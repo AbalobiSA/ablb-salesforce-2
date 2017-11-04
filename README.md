@@ -12,3 +12,10 @@ and provide a secrets file containing a Salesforce username and password referen
     $ yarn add git+https://git@github.com/AbalobiSA/ablb-salesforce-2.git
 
 You will now be able to import this module and use it in your project.
+
+### Initializing
+
+```js
+let Salesforce = require("./dist/index.js");
+let salesforce = new Salesforce("username", "password");
+```
