@@ -1,0 +1,33 @@
+{
+  "name": "ablb-salesforce",
+  "version": "2.0.0",
+  "description": "jsForce wrapper for ease of use",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build": "gulp",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jsforce": "^1.8.6",
+    "@types/node": "^8.0.47",
+    "async": "^2.5.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.3",
+    "jdu": "^1.0.0",
+    "jsforce": "^1.8.0",
+    "limiter": "^1.1.2",
+    "lodash": "^4.17.4",
+    "nodemailer": "^3.1.7",
+    "q": "^1.5.0",
+    "rxjs": "^5.4.2",
+    "sanitize-filename": "^1.6.1",
+    "toolifier": "^2.1.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1",
+    "underscore": "^1.8.3"
+  }
+}
