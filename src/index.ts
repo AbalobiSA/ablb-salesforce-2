@@ -1,6 +1,3 @@
-/**
- * Created by Carl on 2017-05-24.
- */
 import * as jsforce from 'jsforce';
 import {RateLimiter} from 'limiter';
 import sanitize from "sanitize-filename";
