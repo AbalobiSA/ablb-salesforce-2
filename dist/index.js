@@ -1,7 +1,4 @@
 "use strict";
-/**
- * Created by Carl on 2017-05-24.
- */
 const jsforce = require("jsforce");
 const limiter_1 = require("limiter");
 const sanitize_filename_1 = require("sanitize-filename");
@@ -13,7 +10,7 @@ class Salesforce {
     }
     /**
      * Creates a manual connection to salesforce and passes back the connection
-     * object in a callback
+     * object in a promise
      */
     createConnection() {
         let conn = new jsforce.Connection({});
