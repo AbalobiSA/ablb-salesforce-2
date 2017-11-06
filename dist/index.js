@@ -221,3 +221,5 @@ class Salesforce {
     }
 }
 module.exports = Salesforce;
+
+//# sourceMappingURL=index.js.map
