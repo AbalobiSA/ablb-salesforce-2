@@ -234,7 +234,7 @@ class Salesforce {
 }
 
 
-export = Salesforce;
+module.exports = Salesforce;
 
 
 

@@ -1,6 +1,6 @@
 {
   "name": "ablb-salesforce-2",
-  "version": "2.1.0",
+  "version": "2.1.3",
   "description": "jsForce wrapper for ease of use",
   "main": "dist/index.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "@types/node": "^8.0.47",
     "async": "^2.5.0",
     "gulp": "^3.9.1",
+    "gulp-bump": "^2.8.0",
     "gulp-typescript": "^3.2.3",
     "jdu": "^1.0.0",
     "jsforce": "^1.8.0",

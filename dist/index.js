@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const jsforce = require("jsforce");
 const limiter_1 = require("limiter");
 const sanitize_filename_1 = require("sanitize-filename");
