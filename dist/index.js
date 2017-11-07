@@ -4,10 +4,10 @@ const jsforce = require("jsforce");
 const limiter_1 = require("limiter");
 const sanitize_filename_1 = require("sanitize-filename");
 const fs = require("fs");
-const secrets_1 = require("./secrets");
+const Secrets_1 = require("./Secrets");
 class Salesforce {
     constructor(username, password) {
-        this.secrets = new secrets_1.default(username, password);
+        this.secrets = new Secrets_1.default(username, password);
     }
     /**
      * Creates a manual connection to salesforce and passes back the connection

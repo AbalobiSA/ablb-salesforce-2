@@ -2,7 +2,7 @@ import * as jsforce from 'jsforce';
 import {RateLimiter} from 'limiter';
 import sanitize from "sanitize-filename";
 import * as fs from 'fs';
-import Secrets from "./secrets";
+import Secrets from "./Secrets";
 
 class Salesforce {
 
