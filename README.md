@@ -19,6 +19,6 @@ You will need to initialize this module with your
 Salesforce username and password.
 
 ```js
-let Salesforce = require("./dist/index.js");
-let salesforce = new Salesforce("username", "password");
+let Salesforce = require("ablb-salesforce-2");
+let salesforce = new Salesforce("SF_USER", "SF_PASSWORD");
 ```
